@@ -1,0 +1,16 @@
+{
+  "name": "3",
+  "version": "1.0.0",
+  "description": "send mail using node js",
+  "main": "send-email.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sina chehregosha",
+  "license": "ISC",
+  "dependencies": {
+    "gmail-send": "^1.8.10",
+    "lodash": "^4.17.15",
+    "nodemailer": "^6.4.6"
+  }
+}

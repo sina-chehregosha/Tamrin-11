@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+
+<body>
+
+    <div id="heading">
+        <select name="country" id="country" disabled>
+            <!-- Create a Default Value for select tag-->
+            <option id="selectCountry" value="" disabled selected>Loading...</option>
+            <!-- <option value="test">test</option>
+            <option value="test">test</option>
+            <option value="test">test</option> -->
+        </select>
+    </div>
+    <div id="main">
+
+        <div id="flagAndCode" class="card" style="width: 18rem;">
+            <img id="flagImage" src="./Annotation 2020-05-12 214958.png" class="card-img-top" alt="..." height="200px"
+                width="300px">
+            <div class="card-body" id="FlagBody">
+
+                <h2 id="countryName">Country Name</h3>
+                    <h4 id="countryCode">Country Code:---</h4>
+                    <h6 id="nativeName">Native Name:---</h6>
+                    <h6 id="capital">Capital:---</h6>
+                    <h6 id="region">Region:---</h6>
+                    <h6 id="population">Population:---</h6>
+                    <h6 id="languages">Languages:---</h6>
+                    <h6 id="timeZone">Time Zone:---</h6>
+
+            </div>
+        </div>
+        <div id="Weather" class="card" style="width: 18rem;">
+            <!-- <img id="WeatherImage" src="" alt="..." height="200px" width="300px" /> -->
+            <img id="weatherImage" src="./weather.jpg" alt="..." height="200px" width="" />
+            <div class="card-body">
+                <h2 id="city">Capital</h2>
+                <h4 id="weatherCondition" style="color: royalblue;">Weather Condition</h4>
+                <h6 id="windSpeed">Wind Speed:---</h6>
+                <h6 id="temperature">Temperature:---</h6>
+                <h6 id="humidity">Humidity:---</h6>
+                <h6 id="visibility">Visibility:---</h6>
+
+            </div>
+        </div>
+
+
+        <div id="googleMap"></div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0Utsq-f5txBmNM7Q_hY8-35Fw0b36Dd0&callback=myMap"></script>
+</body>
+
+</html>

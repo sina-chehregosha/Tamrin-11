@@ -1,0 +1,21 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hw11-2.js",
+  "dependencies": {
+    "docx-pdf": "0.0.1",
+    "pdf-poppler": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "word",
+    "pdf",
+    "image"
+  ],
+  "author": "cna_ch",
+  "license": "ISC"
+}
